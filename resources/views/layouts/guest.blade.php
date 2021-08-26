@@ -14,11 +14,13 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
+    {{ $script_h ?? '' }}
+
     {{ $style ?? ''}}
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    {{ $script_h ?? '' }}
+
     <!-- -->
 </head>
 

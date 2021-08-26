@@ -23,8 +23,12 @@
 
     </x-auth-card>
 
-    <x-slot name="script">
+    <x-slot name="script_h">
         <script src="https://cdn.typingdna.com/verify/typingdna-verify.js"></script>
+    </x-slot>
+
+    <x-slot name="script">
+
         <script>
             function callbackFn(payload) {
 
