@@ -15,7 +15,7 @@
         <div class="d-flex flex-row justify-content-between justify-content-center">
             <p>Two-Factor Authentication. Please click on the button below and type the text.</p>
             <div class="mt-5 justify-content-center">
-                <x-button class="typingdna-verify" data-typingdna-client-id="{{session('typingDNA')['clientId']}}" data-typingdna-application-id="{{session('typingDNA')['applicationId']}}" data-typingdna-payload="{{session('typingDNA')['payload']}}" data-typingdna-callback-fn="callbackFn"> Verify with TypingDNA
+                <x-button class="typingDNA-verify" data-typingdna-client-id="{{session('typingDNA')['clientId']}}" data-typingdna-application-id="{{session('typingDNA')['applicationId']}}" data-typingdna-payload="{{session('typingDNA')['payload']}}" data-typingdna-callback-fn="callbackFn"> Verify with TypingDNA
                 </x-button>
             </div>
         </div>
