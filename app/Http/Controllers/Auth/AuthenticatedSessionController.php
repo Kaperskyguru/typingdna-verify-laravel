@@ -62,6 +62,8 @@ class AuthenticatedSessionController extends Controller
     public function verifyTypingDNA(Request $request)
     {
 
+        dd($request);
+
         $typingDNAClientID = env('TYPINGDNA_API_KEY');
         $typingDNAApplicationID = env('TYPINGDNA_APPLICATION_ID');
         $typingDNASECRET = env('TYPINGDNA_API_SECRET');

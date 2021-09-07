@@ -32,6 +32,8 @@
         <script>
             function callbackFn(payload) {
 
+                alert("Test")
+
                 const token = '{{ Session::token() }}'
 
                 var xhr = new XMLHttpRequest();
